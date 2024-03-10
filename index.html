@@ -1,59 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="assets/style.css">
 	<title>Dashboard</title>
 </head>
+
 <body>
-	<div class="container grid">
-		<div class="sidebar flex-container">
-			<div class="logo">Dashboard</div>
-			<ul>
-				<li>Home</li>
-				<li>Profile</li>
-				<li>Messages</li>
-				<li>History</li>
-				<li>Tasks</li>
-				<li>Communities</li>
-			</ul>
-			<ul>
-				<li>Settings</li>
-				<li>Support</li>
-				<li>Privacy</li>
-			</ul>
-		</div>
-		<nav class="navbar">sm dumy content =D</nav>
-		<main>
-			<p>My Projects</p>
-			<div class="projects grid">
-				<div class="card">
-					<h4>Some Project</h4>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa omnis ipsum necessitatibus autem rerum! Officia, voluptatem consectetur. Laboriosam sequi sed unde non harum! Aliquid in quasi omnis optio quaerat fugiat.</p>
-				</div>
-				<div class="card">
-					<h4>Yet Another Project</h4>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea mollitia dolores fugiat error magni commodi, illo minima neque ipsum quis. Dolorem at labore molestias illo dignissimos modi, ex dolorum sed.</p>
-				</div>
-				<div class="card">
-					<h4>One More Project</h4>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia at cum dicta quia. Neque, harum aliquam ipsa excepturi voluptas deserunt, ut commodi totam sunt, vitae officia consequuntur obcaecati quae dicta.</p>
-				</div>
-				<div class="card">
-					<h4>Project that is cool!</h4>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius accusamus aspernatur, veniam cum, a magnam rem explicabo harum iste non itaque dolore quae aliquam nemo optio. Harum quod assumenda voluptas.</p>
-				</div>
-				<div class="card">
-					<h4>Project that is AMAZING</h4>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem dolore dolores soluta voluptate vitae modi eaque provident id minima molestias eos velit, hic libero! Architecto minima possimus obcaecati natus iusto!</p>
-				</div>
-				<div class="card">
-					<h4>Final Course Project</h4>
-					<p>autism & alzheimer</p>
-				</div>
+	<div class="container flex">
+		<section class="sidebar flex">
+			<div class="logo flex"><img src="assets/dashboard.svg" alt="">
+				<p>Dashboard</p>
 			</div>
-		</main>
-	</div>	
+			<ul>
+				<li><img src="assets/home.svg" alt="">Home</li>
+				<li><img src="assets/profile.svg" alt="">Profile</li>
+				<li><img src="assets/message.svg" alt="">Messages</li>
+				<li><img src="assets/history.svg" alt="">History</li>
+				<li><img src="assets/tasks.svg" alt="">Tasks</li>
+				<li><img src="assets/community.svg" alt="">Communities</li>
+			</ul>
+			<ul>
+				<li><img src="assets/settings.svg" alt="">Settings</li>
+				<li><img src="assets/support.svg" alt="">Support</li>
+				<li><img src="assets/privacy.svg" alt="">Privacy</li>
+			</ul>
+		</section>
+		<section class="rightside grid">
+			<nav class="navbar grid">
+				<div class="searchbar flex">
+					<div class="flex search">
+						<div class="search-logo flex"><img src="assets/search.svg" alt=""></div>
+						<input type="text">
+					</div>
+					<div class="name flex">
+						<img class="button" src="assets/bell.svg" alt="">
+						<img class="user-icon"
+							src="https://cdn.discordapp.com/avatars/684441534766252115/6a8822a10520f8bfd81dd53973275b54?size=1024"
+							alt="">
+						<p>Mouaad Sadi</p>
+					</div>
+				</div>
+				<div class="flex second">
+					<div class="user flex">
+						<img class="user-icon"
+								src="https://cdn.discordapp.com/avatars/684441534766252115/6a8822a10520f8bfd81dd53973275b54?size=1024"
+								alt="">
+						<div class="flex column">
+							<p>Hi there,</p>
+							<h1>Mouaad Sadi &#40;@grreatest&#41;</h1>
+						</div>
+					</div>
+					<div class="flex wrap">
+					<button type="button">New</button><button type="button">Upload</button><button type="button">Share</button>
+					</div>
+				</div>
+			</nav>
+			<main class="multiple grid">
+				<div class="project-container">
+					<h3>My Projects</h3>
+					<div class="projects grid">
+						<div class="card flex">
+							<div>
+								<h4>Some Project</h4>
+								<p>Loremcia, voluptatem consectetur. Laboriosam sequi sed unde non harum!
+									Aliquid in quasi omnis optio quaerat fugiat.</p>
+							</div>
+								<div class="flex right">
+									<img class="button" src="assets/star.svg" alt="">
+									<img class="button" src="assets/eye.svg" alt="">
+									<img class="button" src="assets/fork.svg" alt="">
+								</div>
+						</div>
+						<div class="card flex ">
+							<div>
+								<h4>Yet Another Project</h4>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea mollitia dolores fugiat error
+									magni commodi, illo minima neque ipsum quis. Dolorem at labore molestias illo
+									dignissimos modi, ex dolorum sed.</p>
+							</div>
+								<div class="flex right">
+									<img class="button" src="assets/star.svg" alt="">
+									<img class="button" src="assets/eye.svg" alt="">
+									<img class="button" src="assets/fork.svg" alt="">
+								</div>
+						</div>
+						<div class="card flex ">
+							<div>
+								<h4>One More Project</h4>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia at cum dicta quia.
+									Neque, harum aliquam ipsa excepturi voluptas deserunt, ut commodi totam sunt, vitae
+									officia consequuntur obcaecati quae dicta.</p>
+							</div>
+								<div class="flex right">
+									<img class="button" src="assets/star.svg" alt="">
+									<img class="button" src="assets/eye.svg" alt="">
+									<img class="button" src="assets/fork.svg" alt="">
+								</div>
+						</div>
+						<div class="card flex ">
+							<div>
+								<h4>Project that is cool!</h4>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius accusamus aspernatur,
+									veniam cum, a magnam rem explicabo harum iste non itaque dolore quae aliquam nemo optio.
+									Harum quod assumenda.</p>
+							</div>
+							<div class="flex right">
+								<img class="button" src="assets/star.svg" alt="">
+								<img class="button" src="assets/eye.svg" alt="">
+								<img class="button" src="assets/fork.svg" alt="">
+							</div>
+						</div>
+						<div class="card flex ">
+							<div>
+								<h4>Project that is AMAZING </h4>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem dolore dolores soluta
+									voluptate vitae modi eaque provident id minima molestias eos velit, hic libero!
+									Architecto minima possimus obcaecati natus iusto!</p>
+							</div>
+								<div class="flex right">
+									<img class="button" src="assets/star.svg" alt="">
+									<img class="button" src="assets/eye.svg" alt="">
+									<img class="button" src="assets/fork.svg" alt="">
+								</div>
+						</div>
+						<div class="card flex ">
+							<div>
+								<h4>Final Course Project</h4>
+								<p>autism & alzheimer</p>
+							</div>
+							<div class="flex right">
+								<img class="button" src="assets/star.svg" alt="">
+								<img class="button" src="assets/eye.svg" alt="">
+								<img class="button" src="assets/fork.svg" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="announcements">
+					<h3>announcements</h3>
+				</div>
+				<div class="trending">
+					<h3>trending</h3>
+				</div>
+			</main>
+		</section>
+	</div>
 </body>
+
 </html>
